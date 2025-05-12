@@ -15,10 +15,11 @@ Sistema de agendamento de transferências financeiras com cálculo dinâmico de 
 3. API disponível em `http://localhost:8080/api/transfers`.
 
 ### Front-end
-1. Node.js instalado.
-2. `npm install`
-3. `npm run dev`
-4. Acesse `http://localhost:3000` (ou porta indicada pelo Vite).
+- Node.js instalado.
+- `npm install`
+- `npm install -D @vitejs/plugin-vue`  # necessário para o vite.config.js
+- `npm run dev`
+- Acesse http://localhost:3000 (ou porta indicada pelo Vite).
 
 ## Decisões arquiteturais
 - **Service Layer**: separação da lógica de negócio (cálculo de taxa).
