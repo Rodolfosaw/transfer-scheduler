@@ -49,6 +49,7 @@
         <executions>
           <execution>
             <id>npm install</id>
+            <phase>generate-resources</phase>
             <goals>
               <goal>install-node-and-npm</goal>
               <goal>npm</goal>
@@ -59,6 +60,7 @@
           </execution>
           <execution>
             <id>npm build</id>
+            <phase>generate-resources</phase> 
             <goals>
               <goal>npm</goal>
             </goals>
