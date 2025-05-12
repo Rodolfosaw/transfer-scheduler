@@ -1,0 +1,3 @@
+# Instruções para rastreadores de busca
+User-agent: *
+Disallow:
